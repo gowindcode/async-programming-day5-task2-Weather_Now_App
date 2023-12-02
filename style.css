@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 100, 250);
+    text-shadow: 0 0 18px rgb(0, 25, 250);
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200205/pngtree-3d-world-map-with-shadow-light-image_329158.jpg");
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTU4NDgwMy1pbWFnZS1rd3Z4dmxjai5qcGc.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/412/1018/503/blue-the-world-black-background-world-map-mainland-hd-wallpaper-preview.jpg");
+}
+
+#weather-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    opacity: 2.0;
+    color: beige;
+}
+
+#cityInput {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#submitButton {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#weather-info {
+    margin-top: 20px;
+    /* opacity: 2.0; */
+}
+body:hover {
+    backface-visibility: hidden;
+}
